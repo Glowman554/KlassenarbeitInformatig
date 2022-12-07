@@ -1,0 +1,54 @@
+h1, h2, h3 {
+    font-family: 'Calibri';
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: medium;
+}
+
+h2 {
+    font-size: large;
+}
+
+h3 {
+    font-size: small;
+}
+
+/* Just for fun */
+/*
+body {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+*/
+
+.absatz {
+    padding-top: 11px;
+    font-family: 'Calibri';
+    padding-left: 1rem;
+}
+
+.absatz > p {
+    font-size: small;
+}
+
+.absatz_idx {
+    padding-top: 12px;
+    font-family: 'Calibri';
+}
+
+.nav > a:link {
+    color: blue;
+}
+
+.nav > a:active {
+    color: red;
+}
+
+.nav > a:visited {
+    color: green;
+}
+
+.nav > a {
+    padding-right: 1rem;
+}
